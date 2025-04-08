@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Choose a Game</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Comic Sans MS', cursive;
+      background-color: #ffeef8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    h1 {
+      color: #ff69b4;
+      margin-top: 40px;
+    }
+    .games {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 40px;
+    }
+    .game-btn {
+      padding: 12px 24px;
+      background-color: #ff8ac5;
+      border: none;
+      border-radius: 25px;
+      font-size: 1.2rem;
+      color: white;
+      cursor: pointer;
+      width: 250px;
+    }
+    .game-btn:hover {
+      background-color: #ff4fac;
+    }
+  </style>
+</head>
+<body>
+  <h1>Choose Your Game 🎮</h1>
+  <div class="games">
+    <button class="game-btn" onclick="location.href='memory.html'">💗 Hello Kitty Memory Match</button>
+    <button class="game-btn" onclick="location.href='puzzle.html'">🧩 Puzzle Love</button>
+    <button class="game-btn" onclick="location.href='tulip.html'">🌷 Catch the Tulip</button>
+  </div>
+</body>
+</html>
